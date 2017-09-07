@@ -1,0 +1,110 @@
+$white: #ffffff;
+$gray: #f4f4f4;
+$greenish: #44c98f;
+$redish: #b24a47;
+$dark: #2d353f;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: relative;
+  color: lighten($dark, 18%);
+  font-family:  'Open Sans', 'Roboto', 'PT Sans', sans-serif;
+  letter-spacing: 1px;
+  width: 500px;
+  max-width: 95%;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 24px;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: lighten($dark, 18%);
+    font-weight: 600;
+  }
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background: $gray;
+  width: 100px;
+  max-width: 95%;
+  margin: 70px auto 25px auto;
+}
+
+.top {
+  margin-top: 100px;
+  position: relative;
+  display: block;
+  p.caption {
+    font-weight: 400;
+    line-height: 40px;
+    span {
+      color: $redish;
+    }
+  }
+  p.description {
+    margin-top: 30px;
+    color: lighten($dark, 45%);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+
+    span {
+      color: lighten($dark, 25%);
+      font-weight: 400;
+    }
+  }
+}
+
+.mid {
+  position: relative;
+  display: block;
+  margin-top: 50px;
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+.button {
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
+  padding: 13px 36px;
+  font-weight: 300;
+  font-size: 20px;
+  color: $gray;
+  background: $gray;
+  border-radius: 3px;
+  transition: all .3s ease;
+  text-decoration: none;
+}
+
+.join {
+  margin-bottom: 50px;
+  background: lighten($greenish, 10%);
+  &:hover,
+  &:focus {
+    color: $white;
+    background: $greenish;
+    text-decoration: none;
+  }
+}
+
+.logo {
+  width: 100px;
+  margin: 0 auto;
+  img {
+    width: 100%;
+  }
+}
