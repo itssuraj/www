@@ -52,6 +52,10 @@ $dark: #2d353f;
   margin: 80px auto 30px auto;
 }
 
+.dtop {
+  margin: 55px auto 30px auto;
+}
+
 .top {
   margin-top: 80px;
   position: relative;
@@ -62,6 +66,7 @@ $dark: #2d353f;
     span {
       color: $redish;
       img {
+        font-size: 24px;
         vertical-align: middle;
       }
     }
@@ -72,10 +77,12 @@ $dark: #2d353f;
     font-weight: 300;
     font-size: 14px;
     line-height: 22px;
-
     span {
       color: lighten($dark, 25%);
       font-weight: 400;
+    }
+    strong {
+      color: lighten($dark, 25%);
     }
   }
 }
@@ -165,5 +172,102 @@ $dark: #2d353f;
   margin: 0 auto;
   img {
     width: 100%;
+  }
+}
+
+.github {
+  position: relative;
+  top: 5px;
+  color: lighten($dark, 70%);
+  font-size: 12px;
+  font-weight: 400;
+  padding: 2px 3px;
+
+  &:focus {
+    color: lighten($dark, 65%);
+    text-decoration: none;
+  }
+}
+
+
+@media (max-width: 485px) {
+  .top {
+    margin-top: 40px;
+    p.caption {
+      font-size: 16px;
+      line-height: 30px;
+      span {
+        img {
+          width: 18px;
+        }
+      }
+    }
+    p.description {
+      font-size: 13px;
+    }
+  }
+  .mid {
+    margin-top: 40px;
+
+    h2 {
+      font-size: 18px;
+    }
+  }
+  .modus {
+    margin-top: 20px;
+    ul {
+      li {
+        img {
+          width: 50px;
+        }
+      }
+    }
+    .modus_text {
+      font-size: 12px;
+    }
+  }
+  .divider {
+    margin: 40px auto 20px auto;
+  }
+  .button {
+    margin: 40px 3px 0 3px;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: $gray;
+    background: $gray;
+    border-radius: 2px;
+    transition: all .5s ease;
+    text-decoration: none;
+  }
+  .join {
+    background: $green;
+    &:hover {
+      box-shadow: 0px 2px 18px rgba(40, 224, 144, 0.3);
+    }
+    &:hover,
+    &:focus {
+      color: $white;
+      background: lighten($green, 10%);
+      text-decoration: none;
+    }
+  }
+  .faq {
+    color: $dark;
+    &:hover {
+      box-shadow: 0px 2px 18px rgba(218, 218, 218, 0.3);
+    }
+    &:hover,
+    &:focus {
+      color: lighten($dark, 18%);
+      background: lighten($dark, 75%);
+      text-decoration: none;
+    }
+  }
+  .logo {
+    width: 75px;
+    img {
+      width: 100%;
+    }
   }
 }
