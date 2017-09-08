@@ -1,5 +1,6 @@
 $white: #ffffff;
-$gray: #f4f4f4;
+$gray: #fafafa;
+$green: #28E090;
 $greenish: #44c98f;
 $redish: #b24a47;
 $dark: #2d353f;
@@ -48,11 +49,11 @@ $dark: #2d353f;
   background: $gray;
   width: 100px;
   max-width: 95%;
-  margin: 100px auto 30px auto;
+  margin: 80px auto 30px auto;
 }
 
 .top {
-  margin-top: 100px;
+  margin-top: 80px;
   position: relative;
   display: block;
   p.caption {
@@ -60,6 +61,9 @@ $dark: #2d353f;
     line-height: 40px;
     span {
       color: $redish;
+      img {
+        vertical-align: middle;
+      }
     }
   }
   p.description {
@@ -98,7 +102,7 @@ $dark: #2d353f;
   }
 
   .modus_text {
-    color: lighten($dark, 20%);
+    color: lighten($dark, 30%);
     font-size: 14px;
     margin-top: 20px;
     display: block;
@@ -107,7 +111,6 @@ $dark: #2d353f;
 
 .footer {
   position: relative;
-  top: 100px;
   margin-bottom: 50px;
 
   p {
@@ -126,27 +129,33 @@ $dark: #2d353f;
   font-size: 16px;
   color: $gray;
   background: $gray;
-  border-radius: 3px;
-  transition: all .3s ease;
+  border-radius: 2px;
+  transition: all .5s ease;
   text-decoration: none;
 }
 
 .join {
-  background: $greenish;
+  background: $green;
+  &:hover {
+    box-shadow: 0px 2px 18px rgba(40, 224, 144, 0.3);
+  }
   &:hover,
   &:focus {
     color: $white;
-    background: lighten($greenish, 10%);
+    background: lighten($green, 10%);
     text-decoration: none;
   }
 }
 
 .faq {
   color: $dark;
+  &:hover {
+    box-shadow: 0px 2px 18px rgba(218, 218, 218, 0.3);
+  }
   &:hover,
   &:focus {
     color: lighten($dark, 18%);
-    background: lighten($dark, 70%);
+    background: lighten($dark, 75%);
     text-decoration: none;
   }
 }

@@ -1,0 +1,14 @@
+<svg width="24" height="22" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>like</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(595 383)">
+<g id="like">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-595 -383)" fill="#FF5757"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 11.9282 3.88635C 12.8969 1.59883 15.1097 0.000478226 17.6836 0.000478226C 21.1507 0.000478226 23.6477 2.95565 23.9616 6.47757C 23.9616 6.47757 24.131 7.35183 23.7581 8.92578C 23.2502 11.0693 22.0564 12.9738 20.447 14.4272L 11.9282 22L 3.55303 14.4267C 1.94356 12.9738 0.749776 11.0689 0.241926 8.9253C -0.131042 7.35135 0.0384018 6.47709 0.0384018 6.47709C 0.352328 2.95517 2.84934 0 6.31645 0C 8.89074 0 10.9596 1.59883 11.9282 3.88635Z"/>
+</defs>
+</svg>

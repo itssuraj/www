@@ -1,20 +1,18 @@
-<svg width="98" height="98" viewBox="0 0 98 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>Group</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(328 434)">
+<g id="Canvas" transform="matrix(5.22449 0 0 5.22449 1713.63 2267.43)">
 <g id="Group">
 <g id="Ellipse">
 <use xlink:href="#path0_fill" transform="translate(-328 -434)" fill="#28E090"/>
 </g>
 <g id="Group">
 <g id="Group">
-<g id="Group">
 <g id="Vector">
-<use xlink:href="#path1_fill" transform="translate(-292.781 -392.429)" fill="#FCFCFC"/>
+<use xlink:href="#path1_fill" transform="translate(-291.506 -392.031)" fill="#FCFCFC"/>
 </g>
 <g id="Vector">
-<use xlink:href="#path2_fill" transform="translate(-291.494 -407.969)" fill="#FCFCFC"/>
-</g>
+<use xlink:href="#path2_fill" transform="translate(-292 -408)" fill="#FCFCFC"/>
 </g>
 </g>
 </g>
@@ -22,7 +20,7 @@
 </g>
 <defs>
 <path id="path0_fill" d="M 98 49C 98 76.062 76.062 98 49 98C 21.938 98 0 76.062 0 49C 0 21.938 21.938 0 49 0C 76.062 0 98 21.938 98 49Z"/>
-<path id="path1_fill" d="M 0 27.5378C 7.7026 32.6892 18.1615 30.6875 23.376 23.0929C 28.5905 15.4983 26.5643 5.15139 18.8766 -2.24583e-07L 0 27.5378Z"/>
+<path id="path1_fill" d="M 0 27.5378C 7.7026 32.6892 18.1614 30.6875 23.376 23.0929C 28.5905 15.4983 26.5643 5.15139 18.8766 -2.24583e-07L 0 27.5378Z"/>
 <path id="path2_fill" d="M 7.39827 30.4052C -0.304332 25.2538 -2.31565 14.9216 2.89888 7.31227C 8.1134 -0.297064 18.5723 -2.28403 26.2749 2.85264L 7.39827 30.4052Z"/>
 </defs>
 </svg>

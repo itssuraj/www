@@ -40,14 +40,14 @@
 .divider {
   border: none;
   height: 1px;
-  background: #f4f4f4;
+  background: #fafafa;
   width: 100px;
   max-width: 95%;
-  margin: 100px auto 30px auto;
+  margin: 80px auto 30px auto;
 }
 
 .top {
-  margin-top: 100px;
+  margin-top: 80px;
   position: relative;
   display: block;
 }
@@ -59,6 +59,10 @@
 
 .top p.caption span {
   color: #b24a47;
+}
+
+.top p.caption span img {
+  vertical-align: middle;
 }
 
 .top p.description {
@@ -99,7 +103,7 @@
 }
 
 .modus .modus_text {
-  color: #58677b;
+  color: #6e8097;
   font-size: 14px;
   margin-top: 20px;
   display: block;
@@ -107,7 +111,6 @@
 
 .footer {
   position: relative;
-  top: 100px;
   margin-bottom: 50px;
 }
 
@@ -124,22 +127,27 @@
   padding: 14px 30px;
   font-weight: 400;
   font-size: 16px;
-  color: #f4f4f4;
-  background: #f4f4f4;
-  border-radius: 3px;
-  -webkit-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
+  color: #fafafa;
+  background: #fafafa;
+  border-radius: 2px;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
   text-decoration: none;
 }
 
 .join {
-  background: #44c98f;
+  background: #28E090;
+}
+
+.join:hover {
+  -webkit-box-shadow: 0px 2px 18px rgba(40, 224, 144, 0.3);
+  box-shadow: 0px 2px 18px rgba(40, 224, 144, 0.3);
 }
 
 .join:hover, .join:focus {
   color: #ffffff;
-  background: #6cd4a7;
+  background: #55e6a7;
   text-decoration: none;
 }
 
@@ -147,9 +155,14 @@
   color: #2d353f;
 }
 
+.faq:hover {
+  -webkit-box-shadow: 0px 2px 18px rgba(218, 218, 218, 0.3);
+  box-shadow: 0px 2px 18px rgba(218, 218, 218, 0.3);
+}
+
 .faq:hover, .faq:focus {
   color: #536275;
-  background: #e5e8ec;
+  background: #f4f5f7;
   text-decoration: none;
 }
 
