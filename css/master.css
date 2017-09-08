@@ -5,16 +5,20 @@
   box-sizing: border-box;
 }
 
-.wrapper {
-  position: relative;
+.wrapper,
+.mid_wrapper {
   color: #536275;
   font-family: 'Open Sans', 'Roboto', 'PT Sans', sans-serif;
   letter-spacing: 1px;
-  width: 500px;
-  max-width: 95%;
   margin: 20px auto;
   text-align: center;
   font-size: 24px;
+}
+
+.wrapper {
+  position: relative;
+  width: 500px;
+  max-width: 95%;
 }
 
 .wrapper h1,
@@ -27,13 +31,19 @@
   font-weight: 600;
 }
 
+.mid_wrapper {
+  position: relative;
+  width: 960px;
+  max-width: 95%;
+}
+
 .divider {
   border: none;
   height: 1px;
   background: #f4f4f4;
   width: 100px;
   max-width: 95%;
-  margin: 70px auto 25px auto;
+  margin: 100px auto 30px auto;
 }
 
 .top {
@@ -71,16 +81,49 @@
 }
 
 .mid h2 {
+  font-weight: 400;
   font-size: 20px;
+}
+
+.modus {
+  margin-top: 50px;
+}
+
+.modus ul {
+  list-style: none;
+}
+
+.modus ul li {
+  margin: 15px 30px;
+  display: inline-block;
+}
+
+.modus .modus_text {
+  color: #58677b;
+  font-size: 14px;
+  margin-top: 20px;
+  display: block;
+}
+
+.footer {
+  position: relative;
+  top: 100px;
+  margin-bottom: 50px;
+}
+
+.footer p {
+  color: #a9b4c2;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 .button {
   display: inline-block;
   position: relative;
-  margin-top: 50px;
-  padding: 13px 36px;
-  font-weight: 300;
-  font-size: 20px;
+  margin: 60px 3px 0 3px;
+  padding: 14px 30px;
+  font-weight: 400;
+  font-size: 16px;
   color: #f4f4f4;
   background: #f4f4f4;
   border-radius: 3px;
@@ -91,13 +134,22 @@
 }
 
 .join {
-  margin-bottom: 50px;
-  background: #6cd4a7;
+  background: #44c98f;
 }
 
 .join:hover, .join:focus {
   color: #ffffff;
-  background: #44c98f;
+  background: #6cd4a7;
+  text-decoration: none;
+}
+
+.faq {
+  color: #2d353f;
+}
+
+.faq:hover, .faq:focus {
+  color: #536275;
+  background: #e5e8ec;
   text-decoration: none;
 }
 
