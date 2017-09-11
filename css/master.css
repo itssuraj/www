@@ -61,8 +61,8 @@
 }
 
 .modal-form p {
-  margin-top: 30px;
-  font-size: 12px;
+  margin-top: 35px;
+  font-size: 14px;
 }
 
 .modal-form img {
@@ -72,7 +72,7 @@
 }
 
 .join-input {
-  margin-top: 40px;
+  margin-top: 0px;
   padding: 0 30px;
 }
 
@@ -146,6 +146,8 @@
 }
 
 .join-input .label-intro {
+  margin-bottom: 15px;
+  opacity: .75;
   font-size: 14px;
 }
 
