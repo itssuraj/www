@@ -1,6 +1,6 @@
 $white: #ffffff;
 $gray: #fafafa;
-$green: #28E090;
+$green: #28e090;
 $greenish: #44c98f;
 $redish: #b24a47;
 $dark: #2d353f;
@@ -111,6 +111,10 @@ $dark: #2d353f;
     vertical-align: middle;
     cursor: pointer;
     transition: all .5s ease;
+  }
+  .unchecked-error {
+    color: $gray;
+    background: rgba(224, 51, 40, 0.75);
   }
   input[type="radio"]:checked + label {
     opacity: .9;

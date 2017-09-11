@@ -13,7 +13,10 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.7.2/parsley.min.js" integrity="sha256-7mHTLf8pURHK69kuuq4rqUGNd3LS1fs54+uR/CmjPs0=" crossorigin="anonymous"></script>
 
+    <script src="./js/airtable.browser.js" charset="utf-8"></script>
+    <script src="./js/main.js" charset="utf-8"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700|PT+Sans|Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="./css/master.css">
   </head>
@@ -55,12 +58,11 @@
                     We need some details about you first!
                   </p>
 
-                  <form name="invite-request-form" class="join-input" action="index.html" method="post" netlify>
+                  <form id="joinForm" name="invite-request-form" class="join-input" data-parsley-errors-messages-disabled>
                     <div class="form-group">
                       <p class="label-intro">You are a...</p>
-                      <input type="radio" name="skillChoice" id="skillChoice1" value="Designer" required checked>
+                      <input type="radio" name="skillChoice" id="skillChoice1" value="Designer" required>
                       <label class="radio-label" for="skillChoice1">Designer</label>
-
                       <input type="radio" name="skillChoice" id="skillChoice2" value="Developer">
                       <label class="radio-label" for="skillChoice2">Developer</label>
                     </div>
