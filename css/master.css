@@ -37,6 +37,135 @@
   max-width: 95%;
 }
 
+.join-form {
+  margin-top: 5%;
+}
+
+.join-form .modal-content {
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.modal-form {
+  position: relative;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+}
+
+.modal-form h3 {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.modal-form p {
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+.modal-form img {
+  display: block;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.join-input {
+  margin-top: 40px;
+  padding: 0 30px;
+}
+
+.join-input input,
+.join-input textarea {
+  opacity: .75;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 15px;
+  margin: 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  text-align: center;
+}
+
+.join-input input:focus,
+.join-input textarea:focus {
+  opacity: .9;
+  border: 1px solid #28E090;
+  /* FF 4-18 */
+  /* FF 19+ */
+  /* IE 10+ */
+}
+
+.join-input input:focus::-webkit-input-placeholder,
+.join-input textarea:focus::-webkit-input-placeholder {
+  opacity: .2;
+}
+
+.join-input input:focus:-moz-placeholder,
+.join-input textarea:focus:-moz-placeholder {
+  opacity: .2;
+}
+
+.join-input input:focus::-moz-placeholder,
+.join-input textarea:focus::-moz-placeholder {
+  opacity: .2;
+}
+
+.join-input input:focus:-ms-input-placeholder,
+.join-input textarea:focus:-ms-input-placeholder {
+  opacity: .2;
+}
+
+.join-input input[type="radio"] {
+  display: none;
+}
+
+.join-input .radio-label {
+  display: inline-block;
+  width: 120px;
+  border-radius: 2px;
+  opacity: .75;
+  background: #fafafa;
+  padding: 10px 0;
+  font-size: 14px;
+  margin: 0 30px;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.join-input input[type="radio"]:checked + label {
+  opacity: .9;
+  background: #28E090;
+}
+
+.join-input .label-intro {
+  font-size: 14px;
+}
+
+.close {
+  position: absolute;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  right: 15px;
+}
+
+.close img {
+  display: block;
+  width: 14px;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
 .divider {
   border: none;
   height: 1px;
@@ -48,6 +177,10 @@
 
 .dtop {
   margin: 55px auto 30px auto;
+}
+
+.dform {
+  margin: 0 auto;
 }
 
 .top {
@@ -143,6 +276,7 @@
   -o-transition: all .5s ease;
   transition: all .5s ease;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .join {
@@ -158,6 +292,11 @@
   color: #ffffff;
   background: #55e6a7;
   text-decoration: none;
+}
+
+.request {
+  margin-top: 25px;
+  border: none;
 }
 
 .faq {
@@ -211,6 +350,9 @@
   }
   .top p.description {
     font-size: 13px;
+  }
+  .join-input {
+    padding: 0;
   }
   .mid {
     margin-top: 40px;
