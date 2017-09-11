@@ -132,7 +132,7 @@
   background: #fafafa;
   padding: 10px 0;
   font-size: 14px;
-  margin: 0 30px;
+  margin: 10px 30px;
   vertical-align: middle;
   cursor: pointer;
   -webkit-transition: all .5s ease;
@@ -353,6 +353,11 @@
   }
   .join-input {
     padding: 0;
+  }
+  .join-input .radio-label {
+    display: inline-block;
+    width: 120px;
+    margin: 10px;
   }
   .mid {
     margin-top: 40px;

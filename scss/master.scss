@@ -107,7 +107,7 @@ $dark: #2d353f;
     background: $gray;
     padding: 10px 0;
     font-size: 14px;
-    margin: 0 30px;
+    margin: 10px 30px;
     vertical-align: middle;
     cursor: pointer;
     transition: all .5s ease;
@@ -309,6 +309,11 @@ $dark: #2d353f;
   }
   .join-input {
     padding: 0;
+    .radio-label {
+      display: inline-block;
+      width: 120px;
+      margin: 10px;
+    }
   }
   .mid {
     margin-top: 40px;
