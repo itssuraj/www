@@ -2,13 +2,19 @@ $(function() {
   var Airtable = require('airtable');
   var base = new Airtable({ apiKey: 'API_KEY' }).base('BASE_ID');
   var validity = $('#joinForm').parsley();
+  
+  var name;
+  var email;
+  var portfolio;
+  var persona;
+  var role;
 
   $('.request').click(function(e) {
-    var name = $('input[name="name"]')[0].value;
-    var email = $('input[name="email"]')[0].value;
-    var portfolio = $('input[name="portfolio"]')[0].value;
-    var persona = $('textarea[name="persona"]')[0].value;
-    var role;
+    checkValidation(name, $('input[name="name"]'), 'input-error');
+    checkValidation(email, $('input[name="email"]'), 'input-error');
+    checkValidation(portfolio, $('input[name="portfolio"]'), 'input-error');
+    checkValidation(persona, $('textarea[name="persona"]'), 'input-error');
+
     if ($('#skillChoice1:hidden')[0].checked) {
       role = "Designer";
     } else if ($('#skillChoice2:hidden')[0].checked) {
@@ -39,6 +45,18 @@ $(function() {
   $('#joinForm').submit(function(e) {
     e.preventDefault();
   });
+
+  function checkValidation(variable, element, klass) {
+    if ($(element).parsley().isValid()) {
+      variable = $(element)[0].value;
+    } else {
+      element.addClass(klass);
+
+      setTimeout(function() {
+        element.removeClass(klass);
+      }, 700);
+    }
+  }
 
   $.fn.extend({
     qcss: function(css) {

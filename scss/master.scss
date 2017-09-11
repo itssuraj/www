@@ -116,6 +116,10 @@ $dark: #2d353f;
     color: $gray;
     background: rgba(224, 51, 40, 0.75);
   }
+  .input-error {
+    border: 1px solid rgba(224, 51, 40, 0.75);
+    background: rgba(224, 51, 40, 0.3);
+  }
   input[type="radio"]:checked + label {
     opacity: .9;
     background: $green;
