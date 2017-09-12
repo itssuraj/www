@@ -43,107 +43,6 @@ $dark: #2d353f;
   max-width: 95%;
 }
 
-.join-form {
-  margin-top: 5%;
-  .modal-content {
-    border: none;
-    border-radius: 2px;
-    padding: 10px;
-  }
-}
-
-.modal-form {
-  position: relative;
-  margin-top: 10px;
-  display: block;
-  text-align: center;
-  h3 {
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-  }
-  p {
-    margin-top: 35px;
-    font-size: 14px;
-  }
-  img {
-    display: block;
-    width: 50px;
-    margin: 0 auto;
-  }
-}
-
-.join-input {
-  margin-top: 0px;
-  padding: 0 30px;
-  input,
-  textarea {
-    opacity: .75;
-    font-size: 14px;
-    font-weight: 300;
-    padding: 15px;
-    margin: 20px 0;
-    border: 1px solid $gray;
-    border-radius: 2px;
-    transition: all .5s ease;
-    text-align: center;
-    &:focus {
-      opacity: .9;
-      border: 1px solid $green;
-      &::-webkit-input-placeholder { opacity: .2; }
-      &:-moz-placeholder { opacity: .2; } /* FF 4-18 */
-      &::-moz-placeholder { opacity: .2; } /* FF 19+ */
-      &:-ms-input-placeholder { opacity: .2; } /* IE 10+ */
-    }
-  }
-  input[type="radio"] {
-    display: none;
-  }
-  .radio-label {
-    display: inline-block;
-    width: 120px;
-    border-radius: 2px;
-    opacity: .75;
-    background: $gray;
-    padding: 10px 0;
-    font-size: 14px;
-    margin: 10px 30px;
-    vertical-align: middle;
-    cursor: pointer;
-    transition: all .5s ease;
-  }
-  .unchecked-error {
-    color: $gray;
-    background: rgba(224, 51, 40, 0.75);
-  }
-  .input-error {
-    border: 1px solid rgba(224, 51, 40, 0.75);
-    background: rgba(224, 51, 40, 0.3);
-  }
-  input[type="radio"]:checked + label {
-    opacity: .9;
-    background: $green;
-  }
-  .label-intro {
-    margin-bottom: 15px;
-    opacity: .75;
-    font-size: 14px;
-  }
-}
-
-.close {
-  position: absolute;
-  transition: all .5s ease;
-  right: 15px;
-  img {
-    display: block;
-    width: 14px;
-  }
-  &:hover {
-    opacity: 1;
-  }
-}
-
 .divider {
   border: none;
   height: 1px;
@@ -155,10 +54,6 @@ $dark: #2d353f;
 
 .dtop {
   margin: 55px auto 30px auto;
-}
-
-.dform {
-  margin: 0 auto;
 }
 
 .top {
@@ -260,11 +155,6 @@ $dark: #2d353f;
   }
 }
 
-.request {
-  margin-top: 25px;
-  border: none;
-}
-
 .faq {
   color: $dark;
   &:hover {
@@ -300,7 +190,6 @@ $dark: #2d353f;
   }
 }
 
-
 @media (max-width: 485px) {
   .top {
     margin-top: 40px;
@@ -315,14 +204,6 @@ $dark: #2d353f;
     }
     p.description {
       font-size: 13px;
-    }
-  }
-  .join-input {
-    padding: 0;
-    .radio-label {
-      display: inline-block;
-      width: 120px;
-      margin: 10px;
     }
   }
   .mid {

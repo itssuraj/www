@@ -8,14 +8,6 @@
     <title>Septims</title>
 
     <link rel="icon" href="./img/favicon.ico">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.7.2/parsley.min.js" integrity="sha256-7mHTLf8pURHK69kuuq4rqUGNd3LS1fs54+uR/CmjPs0=" crossorigin="anonymous"></script>
-
-    <!-- <script src="./js/main.js" charset="utf-8"></script> -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700|PT+Sans|Open+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="./css/master.css">
   </head>
@@ -41,54 +33,13 @@
           <strong>we welcome you!</strong>
         </p>
 
-        <a href="#" class="button join" data-toggle="modal" data-target=".join-form">Join Us</a>
+        <a class="typeform-share button join" href="https://aoozdemir.typeform.com/to/ej2JSL" data-mode="drawer_right" target="_blank">Join Us</a>
+
+        <script>
+          (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
+        </script>
+
         <a href="#" class="button faq">FAQ</a>
-
-        <div class="modal fade join-form" tabindex="-1" role="dialog" aria-labelledby="invitationForm" aria-hidden="true">
-          <div class="modal-dialog modal-md">
-            <div class="modal-content">
-              <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <img src="./img/close.svg" alt="">
-                </button>
-                <div class="modal-form">
-                  <img src="./img/contract.svg" alt="">
-                  <p>
-                    We need some details about you first!
-                  </p>
-
-                  <form id="joinForm" name="invite-request-form" class="join-input" action="thank-you" netlify>
-                    <div class="form-group">
-                      <p class="label-intro">You are a...</p>
-                      <input type="radio" name="skillChoice" id="skillChoice1" value="Designer" required>
-                      <label class="radio-label" for="skillChoice1">Designer</label>
-                      <input type="radio" name="skillChoice" id="skillChoice2" value="Developer">
-                      <label class="radio-label" for="skillChoice2">Developer</label>
-                    </div>
-
-                    <div class="form-group">
-                      <input name="name" type="text" class="form-control" placeholder="What is your name?" required>
-                    </div>
-
-                    <div class="form-group">
-                      <input name="email" type="email" class="form-control" placeholder="What is your e-mail address?" required>
-                    </div>
-
-                    <div class="form-group">
-                      <input name="portfolio" type="url" class="form-control" placeholder="Where can we find your work?" required>
-                    </div>
-
-                    <div class="form-group">
-                      <textarea name="persona" type="textarea" class="form-control" placeholder="Tell us a bit about yourself under 500 characters!" maxlength="500" required></textarea>
-                    </div>
-
-                    <button type="submit" class="button join request">Request Invite</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
     </div>
 
