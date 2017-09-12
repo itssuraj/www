@@ -1,8 +1,6 @@
 $(function() {
-  var Airtable = require('airtable');
-  var base = new Airtable({ apiKey: 'API_KEY' }).base('BASE_ID');
   var validity = $('#joinForm').parsley();
-  
+
   var name;
   var email;
   var portfolio;
@@ -28,17 +26,7 @@ $(function() {
     }
 
     if (validity.isValid()) {
-      base('Invite List').create({
-        "Name": name,
-        "Email": email,
-        "Portfolio": portfolio,
-        "Role": role,
-        "Message": persona,
-        "Status": "Pending"
-      }, function(err, record) {
-        if (err) { console.error(err); return; }
-        if (record) { window.location.href = "/thank-you"; }
-      });
+      $('#joinForm').submit();
     }
   });
 
