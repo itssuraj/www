@@ -95,7 +95,30 @@
 
 .mid h2 {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 22px;
+}
+
+.questions {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.questions ul li {
+  list-style: none;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.questions .qtitle {
+  color: #28e090;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.questions .qdesc {
+  color: #7d8da2;
+  font-size: 14px;
+  margin: 10px 0;
 }
 
 .modus {

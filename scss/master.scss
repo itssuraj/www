@@ -94,7 +94,29 @@ $dark: #2d353f;
 
   h2 {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 22px;
+  }
+}
+
+.questions {
+  margin-top: 50px;
+  text-align: left;
+  ul {
+    li {
+      list-style: none;
+      display: block;
+      margin-bottom: 40px;
+    }
+  }
+  .qtitle {
+    color: $green;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .qdesc {
+    color: lighten($dark, 35%);
+    font-size: 14px;
+    margin: 10px 0;
   }
 }
 
