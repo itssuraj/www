@@ -17,14 +17,14 @@
   },
   {
     "q": "How can I benefit from this?",
-    "a": "Ultimately, every contributer on any project we'll make is going to put that project into their portfolio. That's our basic idea."
+    "a": "Ultimately, every contributer on any project we'll make is going to put that project in their portfolio. That's our basic idea."
   },
   {
     "q": "How much experienced should I be?",
-    "a": "Basic, really. We only looking for how passionate you are. Since this is not a real job and our goal is to learn together, we don't really look how experienced you are. <br><br>For developers only, it would be nice to have good understanding of <u>Git &amp; Github</u> as we'll be using them constantly. But don't worry if you don't know much about them. We'll guide you through your process of learning them."
+    "a": "Beginner, really. We only looking for how passionate you are. Since this is not a real job and our goal is to learn together, we don't really look how experienced you are. <br><br>For developers only, it would be nice to have good understanding of <u>Git &amp; Github</u> as we'll be using them constantly. But don't worry if you don't know much about them. We'll guide you through your process of learning them."
   },
   {
-    "q": "I'm much experienced person. Can I join as well?",
+    "q": "I'm a much experienced person. Can I join as well?",
     "a": "<span class='highlight'>Yes, please!</span> We'll also need experienced people as mentors to guide us through projects."
   }
 ]
