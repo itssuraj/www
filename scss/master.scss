@@ -2,7 +2,8 @@ $white: #ffffff;
 $gray: #fafafa;
 $green: #28e090;
 $greenish: #44c98f;
-$redish: #b24a47;
+$orange: #f4ca7a;
+$redish: #f16464;
 $dark: #2d353f;
 
 * {
@@ -106,10 +107,14 @@ $dark: #2d353f;
       list-style: none;
       display: block;
       margin-bottom: 40px;
+      a {
+        color: lighten($dark, 25%);
+        font-weight: 400;
+      }
     }
   }
   .qtitle {
-    color: $green;
+    color: lighten($dark, 25%);
     font-size: 18px;
     font-weight: 600;
   }
@@ -117,6 +122,7 @@ $dark: #2d353f;
     color: lighten($dark, 35%);
     font-size: 14px;
     margin: 10px 0;
+    line-height: 24px;
   }
 }
 
@@ -215,6 +221,24 @@ $dark: #2d353f;
   }
 }
 
+.warning {
+  background: lighten($redish, 10%);
+  padding: 3px 5px;
+  color: $gray;
+}
+
+.septims {
+  background: lighten($green, 10%);
+  padding: 3px 5px;
+  color: $gray;
+}
+
+.highlight {
+  background: lighten($orange, 10%);
+  padding: 3px 5px;
+  color: darken($gray, 50%);
+}
+
 @media (max-width: 485px) {
   .top {
     margin-top: 40px;
@@ -236,6 +260,21 @@ $dark: #2d353f;
 
     h2 {
       font-size: 18px;
+    }
+  }
+  .questions {
+    margin-top: 35px;
+    ul {
+      li {
+        margin-bottom: 20px;
+        line-height: 20px;
+      }
+    }
+    .qtitle {
+      font-size: 14px;
+    }
+    .qdesc {
+      font-size: 12px;
     }
   }
   .modus {

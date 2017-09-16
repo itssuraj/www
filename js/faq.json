@@ -1,10 +1,30 @@
 [
   {
-    "q": "question 1",
-    "a": "answer 1"
+    "q": "What is this all about?",
+    "a": "<span class='septims'>Septims</span> is a tech group, targeting people who are passionate about OSS!"
   },
   {
-    "q": "question 2",
-    "a": "answer 2"
+    "q": "Why is this a thing?",
+    "a": "Couple months ago, I <a href='https://www.linkedin.com/feed/update/urn:li:activity:6272930413107388416' target='_blank'>posted on Linkedin</a> that I want people who are like me for creating projects together. For me, single handedly coming up with ideas, designing and developing them was very hard. So the idea is to share all this workload and focus only your part in real world projects."
+  },
+  {
+    "q": "Is this a job position?",
+    "a": "<span class='warning'>Simply, no!</span> This is not a job. Paying or fulltime. We are working voluntarily on open source projects we've come up with."
+  },
+  {
+    "q": "Are you accepting every application?",
+    "a": "<span class='highlight'>Not particularly!</span> As much as we want to share this athmosphere with everyone, we basically can't to keep the group authentic."
+  },
+  {
+    "q": "How can I benefit from this?",
+    "a": "Ultimately, every contributer on any project we'll make is going to put that project into their portfolio. That's our basic idea."
+  },
+  {
+    "q": "How much experienced should I be?",
+    "a": "Basic, really. We only looking for how passionate you are. Since this is not a real job and our goal is to learn together, we don't really look how experienced you are. <br><br>For developers only, it would be nice to have good understanding of <u>Git &amp; Github</u> as we'll be using them constantly. But don't worry if you don't know much about them. We'll guide you through your process of learning them."
+  },
+  {
+    "q": "I'm much experienced person. Can I join as well?",
+    "a": "<span class='highlight'>Yes, please!</span> We'll also need experienced people as mentors to guide us through projects."
   }
 ]
